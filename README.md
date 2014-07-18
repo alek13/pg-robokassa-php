@@ -1,4 +1,4 @@
 ps-robokassa-php
 ================
 
-Client Library for Payment System Robokassa
+Client Library for Payment Gate Robokassa
