@@ -1,0 +1,23 @@
+{
+	"name": "alek13/pg-robokassa-client",
+	"description": "Client Library for Payment Gate Robokassa",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Alexander Chibrikin",
+			"email": "alek13.me@gmail.com"
+		}
+	],
+
+	"require": {
+		"php": "~5.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Alek\\PaymentGate\\Robokassa\\": ""
+		}
+	},
+
+	"minimum-stability": "dev"
+}
