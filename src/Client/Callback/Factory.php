@@ -1,7 +1,7 @@
 <?php
-namespace App\Components\Robokassa\Client\Callback;
+namespace Alek\PaymentGate\Robokassa\Client\Callback;
 
-use App\Components\Robokassa\Client;
+use Alek\PaymentGate\Robokassa\Client;
 use App\Components\Utils\ClassForStaticUse;
 
 class Factory extends ClassForStaticUse
@@ -9,7 +9,7 @@ class Factory extends ClassForStaticUse
 	/**
 	 * @param string                           $callbackType one of Type::<CONST>
 	 * @param array                            $callbackConfig
-	 * @param \App\Components\Robokassa\Client $client
+	 * @param \Alek\PaymentGate\Robokassa\Client $client
 	 *
 	 * @throws Exception
 	 * @return AbstractCallback

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Components\Robokassa\Client\Callback;
+namespace Alek\PaymentGate\Robokassa\Client\Callback;
 
 
 interface Listener

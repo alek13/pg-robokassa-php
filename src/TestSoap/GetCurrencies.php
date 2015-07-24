@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Components\Robokassa\TestSoap;
+namespace Alek\PaymentGate\Robokassa\TestSoap;
 
 class GetCurrencies
 {

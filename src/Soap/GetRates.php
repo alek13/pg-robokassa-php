@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Components\Robokassa\Soap;
+namespace Alek\PaymentGate\Robokassa\Soap;
 
 class GetRates
 {

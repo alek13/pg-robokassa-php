@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Components\Robokassa\Client\Callback\Listener;
+namespace Alek\PaymentGate\Robokassa\Client\Callback\Listener;
 
 
-use App\Components\Robokassa\Client\Callback\Handler\Result;
+use Alek\PaymentGate\Robokassa\Client\Callback\Handler\Result;
 
 interface ResultListener
 {
@@ -21,7 +21,7 @@ interface ResultListener
 	 * @param double $sum
 	 * @param int    $invoiceId
 	 * @param array  $additionalParams
-	 * @param \App\Components\Robokassa\TestSoap\OperationStateResponse $roboState
+	 * @param \Alek\PaymentGate\Robokassa\TestSoap\OperationStateResponse $roboState
 	 */
 	public function onSuccess($sum, $invoiceId, array $additionalParams, $roboState);
 

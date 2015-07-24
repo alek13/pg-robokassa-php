@@ -1,5 +1,5 @@
 <?php
-namespace App\Components\Robokassa;
+namespace Alek\PaymentGate\Robokassa;
 
 
 class Signer

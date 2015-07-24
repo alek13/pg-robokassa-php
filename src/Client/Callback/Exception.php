@@ -1,7 +1,7 @@
 <?php
-namespace App\Components\Robokassa\Client\Callback;
+namespace Alek\PaymentGate\Robokassa\Client\Callback;
 
-use App\Components\Robokassa\Client\Exception as ClientException;
+use Alek\PaymentGate\Robokassa\Client\Exception as ClientException;
 
 class Exception extends ClientException
 {

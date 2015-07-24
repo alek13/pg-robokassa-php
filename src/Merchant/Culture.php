@@ -1,5 +1,5 @@
 <?php
-namespace App\Components\Robokassa\Merchant;
+namespace Alek\PaymentGate\Robokassa\Merchant;
 
 use App\Components\Utils\Enum;
 

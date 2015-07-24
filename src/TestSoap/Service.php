@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Components\Robokassa\TestSoap;
+namespace Alek\PaymentGate\Robokassa\TestSoap;
 
 
 /**
@@ -15,28 +15,28 @@ class Service extends \SoapClient
 	 * @access private
 	 */
 	private static $classmap = array(
-		'GetPaymentMethods'         => 'App\Components\Robokassa\TestSoap\GetPaymentMethods',
-		'GetPaymentMethodsResponse' => 'App\Components\Robokassa\TestSoap\GetPaymentMethodsResponse',
-		'PaymentMethodsList'        => 'App\Components\Robokassa\TestSoap\PaymentMethodsList',
-		'ResponseData'              => 'App\Components\Robokassa\TestSoap\ResponseData',
-		'Result'                    => 'App\Components\Robokassa\TestSoap\Result',
-		'Method'                    => 'App\Components\Robokassa\TestSoap\Method',
-		'GetCurrencies'             => 'App\Components\Robokassa\TestSoap\GetCurrencies',
-		'GetCurrenciesResponse'     => 'App\Components\Robokassa\TestSoap\GetCurrenciesResponse',
-		'CurrenciesList'            => 'App\Components\Robokassa\TestSoap\CurrenciesList',
-		'PaymentMethodGroup'        => 'App\Components\Robokassa\TestSoap\PaymentMethodGroup',
-		'Currency'                  => 'App\Components\Robokassa\TestSoap\Currency',
-		'Rate'                      => 'App\Components\Robokassa\TestSoap\Rate',
-		'GetRates'                  => 'App\Components\Robokassa\TestSoap\GetRates',
-		'GetRatesResponse'          => 'App\Components\Robokassa\TestSoap\GetRatesResponse',
-		'RatesList'                 => 'App\Components\Robokassa\TestSoap\RatesList',
-		'OpState'                   => 'App\Components\Robokassa\TestSoap\OpState',
-		'OpStateResponse'           => 'App\Components\Robokassa\TestSoap\OpStateResponse',
-		'OperationStateResponse'    => 'App\Components\Robokassa\TestSoap\OperationStateResponse',
-		'Response'                  => 'App\Components\Robokassa\TestSoap\Response',
-		'OperationState'            => 'App\Components\Robokassa\TestSoap\OperationState',
-		'OperationInfo'             => 'App\Components\Robokassa\TestSoap\OperationInfo',
-		'OperationPaymentMethod'    => 'App\Components\Robokassa\TestSoap\OperationPaymentMethod');
+		'GetPaymentMethods'         => 'Alek\PaymentGate\Robokassa\TestSoap\GetPaymentMethods',
+		'GetPaymentMethodsResponse' => 'Alek\PaymentGate\Robokassa\TestSoap\GetPaymentMethodsResponse',
+		'PaymentMethodsList'        => 'Alek\PaymentGate\Robokassa\TestSoap\PaymentMethodsList',
+		'ResponseData'              => 'Alek\PaymentGate\Robokassa\TestSoap\ResponseData',
+		'Result'                    => 'Alek\PaymentGate\Robokassa\TestSoap\Result',
+		'Method'                    => 'Alek\PaymentGate\Robokassa\TestSoap\Method',
+		'GetCurrencies'             => 'Alek\PaymentGate\Robokassa\TestSoap\GetCurrencies',
+		'GetCurrenciesResponse'     => 'Alek\PaymentGate\Robokassa\TestSoap\GetCurrenciesResponse',
+		'CurrenciesList'            => 'Alek\PaymentGate\Robokassa\TestSoap\CurrenciesList',
+		'PaymentMethodGroup'        => 'Alek\PaymentGate\Robokassa\TestSoap\PaymentMethodGroup',
+		'Currency'                  => 'Alek\PaymentGate\Robokassa\TestSoap\Currency',
+		'Rate'                      => 'Alek\PaymentGate\Robokassa\TestSoap\Rate',
+		'GetRates'                  => 'Alek\PaymentGate\Robokassa\TestSoap\GetRates',
+		'GetRatesResponse'          => 'Alek\PaymentGate\Robokassa\TestSoap\GetRatesResponse',
+		'RatesList'                 => 'Alek\PaymentGate\Robokassa\TestSoap\RatesList',
+		'OpState'                   => 'Alek\PaymentGate\Robokassa\TestSoap\OpState',
+		'OpStateResponse'           => 'Alek\PaymentGate\Robokassa\TestSoap\OpStateResponse',
+		'OperationStateResponse'    => 'Alek\PaymentGate\Robokassa\TestSoap\OperationStateResponse',
+		'Response'                  => 'Alek\PaymentGate\Robokassa\TestSoap\Response',
+		'OperationState'            => 'Alek\PaymentGate\Robokassa\TestSoap\OperationState',
+		'OperationInfo'             => 'Alek\PaymentGate\Robokassa\TestSoap\OperationInfo',
+		'OperationPaymentMethod'    => 'Alek\PaymentGate\Robokassa\TestSoap\OperationPaymentMethod');
 
 	/**
 	 *

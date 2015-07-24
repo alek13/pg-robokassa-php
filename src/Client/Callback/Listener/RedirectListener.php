@@ -1,8 +1,8 @@
 <?php
-namespace App\Components\Robokassa\Client\Callback\Listener;
+namespace Alek\PaymentGate\Robokassa\Client\Callback\Listener;
 
-use App\Components\Robokassa\Client\Callback\Handler\AbstractRedirect;
-use App\Components\Robokassa\Merchant\Culture;
+use Alek\PaymentGate\Robokassa\Client\Callback\Handler\AbstractRedirect;
+use Alek\PaymentGate\Robokassa\Merchant\Culture;
 
 interface RedirectListener
 {

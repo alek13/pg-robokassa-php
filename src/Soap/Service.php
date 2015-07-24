@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Components\Robokassa\Soap;
+namespace Alek\PaymentGate\Robokassa\Soap;
 
 
 /**
@@ -15,31 +15,31 @@ class Service extends \SoapClient
 	 * @access private
 	 */
 	private static $classmap = array(
-		'GetPaymentMethods'         => 'App\Components\Robokassa\Soap\GetPaymentMethods',
-		'GetPaymentMethodsResponse' => 'App\Components\Robokassa\Soap\GetPaymentMethodsResponse',
-		'PaymentMethodsList'        => 'App\Components\Robokassa\Soap\PaymentMethodsList',
-		'RatesRelatedResponseData'  => 'App\Components\Robokassa\Soap\RatesRelatedResponseData',
-		'ResponseData'              => 'App\Components\Robokassa\Soap\ResponseData',
-		'Result'                    => 'App\Components\Robokassa\Soap\Result',
-		'Method'                    => 'App\Components\Robokassa\Soap\Method',
-		'GetCurrencies'             => 'App\Components\Robokassa\Soap\GetCurrencies',
-		'GetCurrenciesResponse'     => 'App\Components\Robokassa\Soap\GetCurrenciesResponse',
-		'CurrenciesList'            => 'App\Components\Robokassa\Soap\CurrenciesList',
-		'PaymentMethodGroup'        => 'App\Components\Robokassa\Soap\PaymentMethodGroup',
-		'Currency'                  => 'App\Components\Robokassa\Soap\Currency',
-		'Rate'                      => 'App\Components\Robokassa\Soap\Rate',
-		'GetRates'                  => 'App\Components\Robokassa\Soap\GetRates',
-		'GetRatesResponse'          => 'App\Components\Robokassa\Soap\GetRatesResponse',
-		'RatesList'                 => 'App\Components\Robokassa\Soap\RatesList',
-		'CalcOutSumm'               => 'App\Components\Robokassa\Soap\CalcOutSumm',
-		'CalcOutSummResponse'       => 'App\Components\Robokassa\Soap\CalcOutSummResponse',
-		'CalcSummsResponseData'     => 'App\Components\Robokassa\Soap\CalcSummsResponseData',
-		'OpState'                   => 'App\Components\Robokassa\Soap\OpState',
-		'OpStateResponse'           => 'App\Components\Robokassa\Soap\OpStateResponse',
-		'OperationStateResponse'    => 'App\Components\Robokassa\Soap\OperationStateResponse',
-		'OperationState'            => 'App\Components\Robokassa\Soap\OperationState',
-		'OperationInfo'             => 'App\Components\Robokassa\Soap\OperationInfo',
-		'OperationPaymentMethod'    => 'App\Components\Robokassa\Soap\OperationPaymentMethod');
+		'GetPaymentMethods'         => 'Alek\PaymentGate\Robokassa\Soap\GetPaymentMethods',
+		'GetPaymentMethodsResponse' => 'Alek\PaymentGate\Robokassa\Soap\GetPaymentMethodsResponse',
+		'PaymentMethodsList'        => 'Alek\PaymentGate\Robokassa\Soap\PaymentMethodsList',
+		'RatesRelatedResponseData'  => 'Alek\PaymentGate\Robokassa\Soap\RatesRelatedResponseData',
+		'ResponseData'              => 'Alek\PaymentGate\Robokassa\Soap\ResponseData',
+		'Result'                    => 'Alek\PaymentGate\Robokassa\Soap\Result',
+		'Method'                    => 'Alek\PaymentGate\Robokassa\Soap\Method',
+		'GetCurrencies'             => 'Alek\PaymentGate\Robokassa\Soap\GetCurrencies',
+		'GetCurrenciesResponse'     => 'Alek\PaymentGate\Robokassa\Soap\GetCurrenciesResponse',
+		'CurrenciesList'            => 'Alek\PaymentGate\Robokassa\Soap\CurrenciesList',
+		'PaymentMethodGroup'        => 'Alek\PaymentGate\Robokassa\Soap\PaymentMethodGroup',
+		'Currency'                  => 'Alek\PaymentGate\Robokassa\Soap\Currency',
+		'Rate'                      => 'Alek\PaymentGate\Robokassa\Soap\Rate',
+		'GetRates'                  => 'Alek\PaymentGate\Robokassa\Soap\GetRates',
+		'GetRatesResponse'          => 'Alek\PaymentGate\Robokassa\Soap\GetRatesResponse',
+		'RatesList'                 => 'Alek\PaymentGate\Robokassa\Soap\RatesList',
+		'CalcOutSumm'               => 'Alek\PaymentGate\Robokassa\Soap\CalcOutSumm',
+		'CalcOutSummResponse'       => 'Alek\PaymentGate\Robokassa\Soap\CalcOutSummResponse',
+		'CalcSummsResponseData'     => 'Alek\PaymentGate\Robokassa\Soap\CalcSummsResponseData',
+		'OpState'                   => 'Alek\PaymentGate\Robokassa\Soap\OpState',
+		'OpStateResponse'           => 'Alek\PaymentGate\Robokassa\Soap\OpStateResponse',
+		'OperationStateResponse'    => 'Alek\PaymentGate\Robokassa\Soap\OperationStateResponse',
+		'OperationState'            => 'Alek\PaymentGate\Robokassa\Soap\OperationState',
+		'OperationInfo'             => 'Alek\PaymentGate\Robokassa\Soap\OperationInfo',
+		'OperationPaymentMethod'    => 'Alek\PaymentGate\Robokassa\Soap\OperationPaymentMethod');
 
 	/**
 	 *

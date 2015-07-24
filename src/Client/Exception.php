@@ -1,7 +1,7 @@
 <?php
-namespace App\Components\Robokassa\Client;
+namespace Alek\PaymentGate\Robokassa\Client;
 
-use App\Components\Robokassa\Exception as BaseException;
+use Alek\PaymentGate\Robokassa\Exception as BaseException;
 
 class Exception extends BaseException
 {

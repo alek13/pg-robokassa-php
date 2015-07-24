@@ -1,5 +1,5 @@
 <?php
-namespace App\Components\Robokassa\Client\Callback\Handler;
+namespace Alek\PaymentGate\Robokassa\Client\Callback\Handler;
 
 
 class Fail extends AbstractRedirect

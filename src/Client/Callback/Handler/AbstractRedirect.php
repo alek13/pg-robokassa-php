@@ -1,8 +1,8 @@
 <?php
-namespace App\Components\Robokassa\Client\Callback\Handler;
+namespace Alek\PaymentGate\Robokassa\Client\Callback\Handler;
 
-use App\Components\Robokassa\Client\Callback\AbstractCallback;
-use App\Components\Robokassa\Client\Callback\Listener;
+use Alek\PaymentGate\Robokassa\Client\Callback\AbstractCallback;
+use Alek\PaymentGate\Robokassa\Client\Callback\Listener;
 
 abstract class AbstractRedirect extends AbstractCallback
 {

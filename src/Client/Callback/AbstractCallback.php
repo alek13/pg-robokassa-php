@@ -1,8 +1,8 @@
 <?php
-namespace App\Components\Robokassa\Client\Callback;
+namespace Alek\PaymentGate\Robokassa\Client\Callback;
 
-use App\Components\Robokassa\Client;
-use App\Components\Robokassa\Signer;
+use Alek\PaymentGate\Robokassa\Client;
+use Alek\PaymentGate\Robokassa\Signer;
 
 abstract class AbstractCallback implements Listener
 {
@@ -76,7 +76,7 @@ abstract class AbstractCallback implements Listener
 	}
 
 	/**
-	 * @param \App\Components\Robokassa\Client\Callback\Listener $listener
+	 * @param \Alek\PaymentGate\Robokassa\Client\Callback\Listener $listener
 	 *
 	 * @return $this
 	 */

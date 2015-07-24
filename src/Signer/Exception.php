@@ -1,7 +1,7 @@
 <?php
-namespace App\Components\Robokassa\Signer;
+namespace Alek\PaymentGate\Robokassa\Signer;
 
-use App\Components\Robokassa\Exception as RobokassaException;
+use Alek\PaymentGate\Robokassa\Exception as RobokassaException;
 
 class Exception extends RobokassaException
 {

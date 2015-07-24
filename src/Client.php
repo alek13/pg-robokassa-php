@@ -1,11 +1,11 @@
 <?php
-namespace App\Components\Robokassa;
+namespace Alek\PaymentGate\Robokassa;
 
-use App\Components\Robokassa\Client\Callback\Factory;
-use App\Components\Robokassa\Client\Callback\InputMethod;
-use App\Components\Robokassa\Client\Mode;
-use App\Components\Robokassa\Data\OpState\Code;
-use App\Components\Robokassa\Merchant\Culture;
+use Alek\PaymentGate\Robokassa\Client\Callback\Factory;
+use Alek\PaymentGate\Robokassa\Client\Callback\InputMethod;
+use Alek\PaymentGate\Robokassa\Client\Mode;
+use Alek\PaymentGate\Robokassa\Data\OpState\Code;
+use Alek\PaymentGate\Robokassa\Merchant\Culture;
 
 
 /**
@@ -156,7 +156,7 @@ class Client
 	}
 
 	//	/**
-	//	 * @return \App\Components\Robokassa\Soap\Service
+	//	 * @return \Alek\PaymentGate\Robokassa\Soap\Service
 	//	 */
 	//	public function getSoapService()
 	//	{
